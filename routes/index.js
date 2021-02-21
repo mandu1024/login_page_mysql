@@ -61,9 +61,9 @@ router.post('/sendEmail', async function(req,res){
   });
 
   let info = await transporter.sendMail({
-    from: 'begoing1024@gmail.com',
+    from: '*****@gmail.com',
     to: user_email,
-    subject: '안녕하세요. 비고잉입니다.',
+    subject: '안녕하세요. ',
     text: auth_number,
   });
 })
